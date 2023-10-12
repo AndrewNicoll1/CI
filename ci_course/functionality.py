@@ -1,6 +1,5 @@
 import numbers
 
-
 def greet(name=""):
     """
     A function that takes a name and returns a greeting.
@@ -33,7 +32,7 @@ def minimum(*args):
         The minimum
     """
     if not any([isinstance(arg, numbers.Real) for arg in args]):
-            return
+    	return
 
     the_min = float("inf")
     for arg in args:
